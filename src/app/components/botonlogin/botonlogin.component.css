@@ -1,0 +1,43 @@
+
+/* seccion logos de  font awesome*/
+
+.list-group{
+    --bs-list-group-bg:transparent;
+    --bs-list-group-border-color:transparent;
+    
+}
+/* seccion logos de  font awesome*/
+.list-group{
+    --bs-list-group-bg:transparent;
+    --bs-list-group-border-color:transparent;
+    
+}
+
+.modal-content{
+    background-color: #bdb6b5;
+}
+.form-control{
+    background-color: beige;
+}
+#logiModal{
+    background: transparent;
+
+}
+.fa-brands.fa-linkedin.fa-2x{
+        color: #333; /* Cambia el color a uno diferente al azul */
+        text-decoration: none; /* Elimina la subrayado del enlace */
+      }
+      
+.fa-brands.fa-github.fa-2x{
+    color: #333; /* Cambia el color a uno diferente al azul */
+        text-decoration: none; /* Elimina la subrayado del enlace */
+
+}
+.fa-brands.fa-instagram.fa-2x{
+    color: #333; /* Cambia el color a uno diferente al azul */
+        text-decoration: none; /* Elimina la subrayado del enlace */
+
+} 
+.mb-3{
+    padding: 20px;
+}

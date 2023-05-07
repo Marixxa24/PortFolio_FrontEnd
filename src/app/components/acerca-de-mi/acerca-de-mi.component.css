@@ -1,0 +1,46 @@
+/*  SECCION ACERCA DE MI*/
+.featurette-divider{
+    background-color: beige;
+}
+.row{
+    padding: 15px;
+    font-family:inherit;
+}
+#nombre{
+    margin-top: 10px;
+    margin-left:10px;;
+}
+#parrafo{
+    font-family:inherit;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+div{
+    background-color:#bdb6b5;
+    
+}
+/* estilo de la foto de perfin*/
+
+@media (min-width:576px){
+    #fotodeperfil{
+        position:absolute;
+        width: 12%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top:590px;
+
+    }
+}
+
+@media (max-width:576px){
+    #fotodeperfil{
+        position:absolute;
+        width: 27%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 38%;
+        top: 186px;
+
+    }
+}
