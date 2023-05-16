@@ -10,6 +10,12 @@
     --bs-list-group-border-color:transparent;
     
 }
+.btn-secondary{
+    --bs-btn-color:transparent;
+    --bs-btn-bg:transparent;
+    --bs-btn-border-color:transparent;
+}
+
 
 .modal-content{
     background-color: #bdb6b5;
@@ -35,4 +41,8 @@
     color: #333; /* Cambia el color a uno diferente al azul */
         text-decoration: none; /* Elimina la subrayado del enlace */
 
+}
+.fa-solid.fa-user-lock.fa-2x{
+    color: #333; /* Cambia el color a uno diferente al azul */
+        text-decoration: none; /* Elimina la subrayado del enlace */
 }

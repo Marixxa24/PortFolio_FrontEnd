@@ -1,6 +1,63 @@
+/* barra e nav*/
+.navbar.navbar-expand-.lg-colbarra{
+    background-color:#bdb6b5;
+   
+}
+
+
 
 /* seccion logos de  font awesome*/
+.list-group{
+    --bs-list-group-bg:transparent;
+    --bs-list-group-border-color:transparent;
+    
+}
+/* seccion logos de  font awesome*/
+.list-group{
+    --bs-list-group-bg:transparent;
+    --bs-list-group-border-color:transparent;
+    
+}
+.btn-secondary{
+    --bs-btn-color:transparent;
+    --bs-btn-bg:transparent;
+    --bs-btn-border-color:transparent;
+}
 
+
+.modal-content{
+    background-color: #bdb6b5;
+}
+.form-control{
+    background-color: beige;
+}
+#logiModal{
+    background: transparent;
+
+}
+.fa-brands.fa-linkedin.fa-2x{
+        color: #333; /* Cambia el color a uno diferente al azul */
+        text-decoration: none; /* Elimina la subrayado del enlace */
+      }
+      
+.fa-brands.fa-github.fa-2x{
+    color: #333; /* Cambia el color a uno diferente al azul */
+        text-decoration: none; /* Elimina la subrayado del enlace */
+
+}
+.fa-brands.fa-instagram.fa-2x{
+    color: #333; /* Cambia el color a uno diferente al azul */
+        text-decoration: none; /* Elimina la subrayado del enlace */
+
+}
+.fa-solid.fa-user-lock.fa-2x{
+    color: #333; /* Cambia el color a uno diferente al azul */
+        text-decoration: none; /* Elimina la subrayado del enlace */
+}
+.card.text-center{
+    background-color: #bdb6b5;
+}
+/* seccion logos de  font awesome*/
 .list-group{
     --bs-list-group-bg:transparent;
     --bs-list-group-border-color:transparent;
@@ -37,7 +94,24 @@
     color: #333; /* Cambia el color a uno diferente al azul */
         text-decoration: none; /* Elimina la subrayado del enlace */
 
-} 
-.mb-3{
-    padding: 20px;
+}
+.btn.btn-primary{
+    background-color:darkseagreen;
+}
+.fa-brands.fa-whatsapp.fa-2x{
+    color: #333; /* Cambia el color a uno diferente al azul */
+    text-decoration: none; /* Elimina la subrayado del enlace */
+}
+.fa-sharp.fa-solid.fa-envelope.fa-2x{
+    color: #333; /* Cambia el color a uno diferente al azul */
+    text-decoration: none; /* Elimina la subrayado del enlace */
+}
+.card-img {
+    height: 10rem; /* Cambia la altura a 10 rem */
+  } 
+  .card-text{
+    color:black
+}
+h5{
+    color: black;
 }
