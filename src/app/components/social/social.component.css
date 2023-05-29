@@ -1,48 +1,42 @@
-/* seccion logos de  font awesome*/
-.list-group{
-    --bs-list-group-bg:transparent;
-    --bs-list-group-border-color:transparent;
-    
-}
-/* seccion logos de  font awesome*/
-.list-group{
-    --bs-list-group-bg:transparent;
-    --bs-list-group-border-color:transparent;
-    
-}
-.btn-secondary{
-    --bs-btn-color:transparent;
-    --bs-btn-bg:transparent;
-    --bs-btn-border-color:transparent;
+/* Tabla social */
+.list-group-item {
+    background-color: transparent; /* Establece el fondo transparente para cada elemento de la lista */
+    border-inline-start-color: transparent; /* Establece el color del borde izquierdo transparente */
 }
 
+/* Sección logos de Font Awesome */
+.list-group {
+    display: flex; /* Aplica un diseño flexible para alinear horizontalmente los elementos de la lista */
+    padding: 0; /* Elimina el relleno de la lista */
+    list-style: none; /* Elimina los estilos de viñeta de la lista */
+}
 
-.modal-content{
-    background-color: #bdb6b5;
+.list-group-item {
+    margin: auto; /* Centra los elementos de la lista horizontalmente */
 }
-.form-control{
-    background-color: beige;
-}
-#logiModal{
-    background: transparent;
 
+.btn-secondary {
+    --bs-btn-color: transparent; /* Establece el color del texto del botón transparente */
+    --bs-btn-bg: transparent; /* Establece el fondo del botón transparente */
+    --bs-btn-border-color: transparent; /* Establece el color del borde del botón transparente */
 }
-.fa-brands.fa-linkedin.fa-2x{
-        color: #333; /* Cambia el color a uno diferente al azul */
-        text-decoration: none; /* Elimina la subrayado del enlace */
-      }
-      
-.fa-brands.fa-github.fa-2x{
+
+.modal-content {
+    background-color: transparent; /* Establece el fondo transparente para el contenido del modal */
+}
+
+.form-control {
+    background-color: transparent; /* Establece el fondo transparente para los controles de formulario */
+}
+
+#logiModal {
+    background: transparent; /* Establece el fondo transparente para el elemento con ID "logiModal" */
+}
+
+.fa-brands.fa-linkedin.fa-2x,
+.fa-brands.fa-github.fa-2x,
+.fa-brands.fa-instagram.fa-2x,
+.fa-solid.fa-user-lock.fa-2x {
     color: #333; /* Cambia el color a uno diferente al azul */
-        text-decoration: none; /* Elimina la subrayado del enlace */
-
-}
-.fa-brands.fa-instagram.fa-2x{
-    color: #333; /* Cambia el color a uno diferente al azul */
-        text-decoration: none; /* Elimina la subrayado del enlace */
-
-}
-.fa-solid.fa-user-lock.fa-2x{
-    color: #333; /* Cambia el color a uno diferente al azul */
-        text-decoration: none; /* Elimina la subrayado del enlace */
+    text-decoration: none; /* Elimina el subrayado del enlace */
 }

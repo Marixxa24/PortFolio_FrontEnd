@@ -1,24 +1,39 @@
-.row{
-    padding: 20px;
-    background-color: #bfb1b082;
+.container {
+  margin-top: 50px; /* Margen superior del contenedor */
 }
-.contenedor{
-    width: auto;
 
+h1 {
+  margin-bottom: 30px; /* Margen inferior del título h1 */
 }
-.parte1, .parte2{
-    display: inline-block;
-    text-align: justify;
+
+.contenedor {
+  display: flex;
+  justify-content: space-between; /* Distribución equitativa de espacio entre los elementos dentro del contenedor */
+  margin-bottom: 40px; /* Margen inferior del contenedor */
 }
-.img-proyecto1{
-    box-shadow: 10px 10px 30px #000000;
-    /* box-shadow: ejex-ejey-difuminacion-color ;*/
 
-
+.parte1 {
+  flex-basis: 70%; /* Ancho del 70% para la parte1 */
 }
-.img-proyecto2{
-    box-shadow: -10px -10px 30px #000000;
-    /* box-shadow: ejex-ejey-difuminacion-color ;*/
 
+.parte2 {
+  flex-basis: 25%; /* Ancho del 25% para la parte2 */
+  display: flex;
+  justify-content: flex-end; /* Alineación del contenido a la derecha dentro de la parte2 */
+  align-items: center; /* Alineación vertical centrada del contenido dentro de la parte2 */
+}
 
+.btn-custom {
+  background-color: #bfb1b082; /* Color de fondo del botón */
+  border-color: #bfb1b082; /* Color del borde del botón */
+  padding: 12px 24px; /* Relleno interno del botón (12px arriba/abajo, 24px izquierda/derecha) */
+  font-size: 18px; /* Tamaño de fuente del texto del botón */
+  font-weight: bold; /* Peso de la fuente en negrita */
+  color: white; /* Color del texto del botón */
+  transition: all 0.3s ease; /* Transición suave de 0.3 segundos para todas las propiedades del botón */
+}
+
+.btn-custom:hover {
+  background-color: #524571; /* Color de fondo del botón al pasar el cursor */
+  border-color: #524571; /* Color del borde del botón al pasar el cursor */
 }

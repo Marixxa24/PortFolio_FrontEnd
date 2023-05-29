@@ -1,25 +1,32 @@
-.row{
+/* Estilos para la sección de imágenes */
+.row {
   padding: 20px;
   background-color: #bfb1b082;
 }
-.contenedor{
-  width: auto;
 
+.contenedor {
+  width: auto;
 }
-.parte1, .parte2{
+
+.parte1,
+.parte2 {
   display: inline-block;
+  vertical-align: middle; /* Alinea verticalmente el texto */
   text-align: justify;
   padding: 20px;
 }
-.img-proyecto1{
-  box-shadow: 10px 10px 30px #000000;
-  /* box-shadow: ejex-ejey-difuminacion-color ;*/
 
-
+/* Estilos para las imágenes */
+.img-proyecto1,
+.img-proyecto2 {
+  display: inline-block;
+  border-radius: 50%; /* Hace que las imágenes tengan forma circular */
+  box-shadow: 10px 10px 30px #000000; /* Agrega una sombra alrededor de las imágenes con desplazamiento y difuminación */
+  /* box-shadow: offset-x offset-y blur-radius color; */
+  transition: transform 0.3s ease-in-out; /* Agrega una transición suave a la propiedad de transformación */
 }
-.img-proyecto2{
-  box-shadow: -10px -10px 30px #000000;
-  /* box-shadow: ejex-ejey-difuminacion-color ;*/
 
+.img-proyecto1:hover,
+.img-proyecto2:hover {
+  transform: scale(1.1); /* Aplica una escala del 110% a las imágenes en el estado de "hover" */
 }
-

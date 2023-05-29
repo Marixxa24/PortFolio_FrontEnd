@@ -5,3 +5,31 @@
 h1{
     text-align:center;
 }
+.circle-progress-wrapper {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .circle-progress-container {
+    display: inline-block;
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 10px;
+  }
+  
+  .circle-progress-percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: bold;
+    color: #332b47;
+  }
+  
+  .circle-progress-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #332b47;
+  }  
